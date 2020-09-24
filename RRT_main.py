@@ -23,7 +23,7 @@ def draw():
         xAxis.append(vert[0])
         yAxis.append(vert[1])
 
-    plt.plot(xAxis, yAxis, 'ro')
+    plt.plot(xAxis, yAxis, '.')
     plt.axis([0, 100, 0, 100])
 
     # for ed in edges:
